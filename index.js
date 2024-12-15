@@ -18,7 +18,7 @@ const client = new Client({
     ]
 });
 
-const { token, prefix } = require("./config.js");
+const { token } = require("./config.js");
 
 
 client.slashCommand = new Map();
