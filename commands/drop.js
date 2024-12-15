@@ -60,7 +60,7 @@ module.exports = {
             })
             .setColor('#b811ff');
 await int.update({ embeds: [embed1], components: [] });
-            await int.channel.send(`<:1284923177738178561:1317588244724056084> Congratulations, ${winner}! You won **${prize}**!`)
+            await int.channel.send(`Congratulations, ${winner}! You won **${prize}**!`)
         });
         
         
